@@ -15,7 +15,7 @@ export default {
     },
     methods:{
         deleteTask:function(){
-            this.$emit('select')
+            this.$emit('delete')
         },
         didTask:function(){
             this.$emit('done')

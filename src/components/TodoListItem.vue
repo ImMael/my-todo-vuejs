@@ -15,7 +15,7 @@ export default {
     },
     methods:{
         deleteTask:function(){
-            this.$emit('select')
+            this.$emit('delete')
         },
         didTask:function(){
             this.$emit('done')
@@ -28,9 +28,9 @@ export default {
     .active{
         text-decoration: line-through;
     }
-    .btn{
-        width: 100px;
-        margin-left: 10px;
+    button{
         margin-right:10px;
+        margin-bottom: 10px;
+        width: 100px;
     }
 </style>
